@@ -75,6 +75,15 @@ class TestTriangles(unittest.TestCase):
     def testInvalidInputC(self): # pass with org version
         self.assertEqual(classifyTriangle(1000,1000,1000),'InvalidInput','1000,1000,1000 is a InvalidInput')
 
+    def testInvalidInputD(self): # pass with org version
+        self.assertEqual(classifyTriangle('a','b', 'c'),'InvalidInput','a,b,c is a InvalidInput')
+
+    def testInvalidInputE(self): # pass with org version
+        self.assertEqual(classifyTriangle('a','10', '10'),'InvalidInput','a,b,c is a InvalidInput')
+
+    def testInvalidInputF(self): # pass with org version
+        self.assertEqual(classifyTriangle('a','10', '5.5'),'InvalidInput','a,b,c is a InvalidInput')
+
 
 if __name__ == '__main__':
     print('Running unit tests')
