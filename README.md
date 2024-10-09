@@ -21,3 +21,5 @@ The logic bugs in Triangle.py has been fixed.
 # For HW02b:
 Click this button, to see Travis-CI test result:
 [![Build Status](https://travis-ci.org/ZongqingQi/SSW567_SoftwareTestingClass.svg?branch=master)](https://travis-ci.org/ZongqingQi/SSW567_SoftwareTestingClass)
+
+[![Build Status of main](https://travis-ci.com/ZongqingQi/SSW567_SoftwareTestingClass.svg?branch=master)](https://travis-ci.com/ZongqingQi/SSW567_SoftwareTestingClass)
